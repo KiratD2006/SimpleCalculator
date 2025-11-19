@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> b19b251 (Local changes before pulling from GitHub)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+<<<<<<< HEAD
     font-family: sans-serif;
     font-size: 16px;
     width: 100%;
@@ -111,3 +116,71 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+=======
+    background-color: rgb(230, 203, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+}
+
+.container {
+    width: 300px;
+}
+
+.calculator {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.calculator form > div:not(.display) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 12px);
+    column-gap: 10px;
+}
+
+.display input {
+    width: 100%;
+    height: 60px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(100, 0, 193);
+}
+
+input[type="button"] {
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+input[type="button"]:hover {
+    background-color: #a1a1a1;
+}
+    
+
+.operator {
+    background-color: rgb(200, 142, 255) !important;
+    color: white;
+}
+
+
+.operator:hover {
+    background-color: rgb(132, 0, 255) !important;
+}
+>>>>>>> b19b251 (Local changes before pulling from GitHub)

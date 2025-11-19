@@ -6,15 +6,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<<<<<<< HEAD
     <body style="background-color:rgb(215, 172, 255);">
      <br>
      <br>
      <br>
     <h1 style="text-align:center;">Simple Calculator</h1>
+=======
+
+<h1 style="text-align:center; margin-bottom: 20px;">SIMPLE CALCULATOR</h1>
+
+>>>>>>> b19b251 (Local changes before pulling from GitHub)
 <div class="container">
     <div class="calculator">
         <form>
             <div class="display">
+<<<<<<< HEAD
                 <input type="text" name="display">
             </div>
             <div>
@@ -46,11 +53,47 @@
                 <input type="button"  value="0"  onclick="display.value += '0' ">
                 <input type="button"  value="="  onclick="display.value =  eval(display.value)">
                 <input type="button"  value="+"  onclick="display.value += '+' " class="operator">
+=======
+                <input type="text" name="display" readonly>
+            </div>
+            <div>
+                <input type="button" value="AC" onclick="display.value=''" class="operator">
+                <input type="button" value="DE" onclick="display.value=display.value.slice(0,-1)" class="operator">
+                <input type="button" value="(" onclick="display.value+='('" class="operator">
+                <input type="button" value=")" onclick="display.value+=')'" class="operator">
+            </div>
+            <div>
+                <input type="button" value="7" onclick="display.value+='7'">
+                <input type="button" value="8" onclick="display.value+='8'">
+                <input type="button" value="9" onclick="display.value+='9'">
+                <input type="button" value="/" onclick="display.value+='/'" class="operator">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="display.value+='4'">
+                <input type="button" value="5" onclick="display.value+='5'">
+                <input type="button" value="6" onclick="display.value+='6'">
+                <input type="button" value="*" onclick="display.value+='*'" class="operator">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="display.value+='1'">
+                <input type="button" value="2" onclick="display.value+='2'">
+                <input type="button" value="3" onclick="display.value+='3'">
+                <input type="button" value="-" onclick="display.value+='-'" class="operator">
+            </div>
+            <div>
+                <input type="button" value="." onclick="display.value+='.'">
+                <input type="button" value="0" onclick="display.value+='0'">
+                <input type="button" value="=" onclick="display.value = eval(display.value)">
+                <input type="button" value="+" onclick="display.value+='+'" class="operator">
+>>>>>>> b19b251 (Local changes before pulling from GitHub)
             </div>
         </form>
     </div>
 </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b19b251 (Local changes before pulling from GitHub)
 </body>
 </html>
